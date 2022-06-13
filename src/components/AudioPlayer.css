@@ -1,0 +1,78 @@
+.volume {
+    width:100px;
+  }
+  
+  .volume .ant-slider-handle {
+    background-color: transparent;
+    color: rgb(83, 80, 80);
+    background-color: rgb(83, 80, 80);
+}
+
+
+.soundDiv {
+    display: flex;
+    gap:15px;
+    font-size: 20px;
+    align-items:center;
+    width: 300px;
+    justify-content: end;
+    color: rgb(83, 80, 80);
+  }
+
+.pauseplay {
+    font-size: 35px;
+    transition: transform 0.2s;
+    color: rgb(83, 80, 80);
+}
+
+.pauseplay:hover {
+    transform: scale(1.1);
+}
+
+.forback {
+    font-size: 16px;
+    transition: transform 0.2s;
+    color: rgb(83, 80, 80);
+}
+
+.forback:hover {
+    transform: scale(1.4);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+    color: rgb(83, 80, 80);
+}
+
+.progress {
+    width:400px;
+    
+}
+
+.progress .ant-slider-track {
+    background-color: #379ee2;
+}
+
+.progress .ant-slider-handle {
+    background-color: transparent;
+    color: rgb(83, 80, 80);
+    background-color: rgb(83, 80, 80);
+}
+
+.cover {
+    height: 80px;
+    
+}
+
+.songTitle {
+    font-size: 16px;
+    color: black;
+}
+
+.songAlbum {
+    font-size: 12px;
+}

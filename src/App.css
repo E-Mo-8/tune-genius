@@ -1,0 +1,152 @@
+@import '~antd/dist/antd.css';
+
+.ant-layout {
+    min-height: 100vh;
+}
+
+.ant-layout-sider {
+    background-image: linear-gradient(#F7F4FD, #F7F4FD);
+    background-attachment:fixed;
+    width: 800px;
+    padding: 30px;
+}
+
+.ant-layout-content {
+    background-image: linear-gradient(#F7F4FD, #F7F4FD);
+    background-attachment:fixed;
+}
+
+.ant-layout-footer {
+    background-color: #292929;
+    padding-bottom: 4px;
+    padding-top: 15px;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before {
+    border-bottom: 0px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #379ee2;
+    text-shadow: 0 0 0.25px currentcolor;
+}
+
+.ant-tabs-tab-btn:focus {
+    color: #379ee2;
+}
+
+.ant-tabs-tab {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.ant-tabs-tab:hover {
+    color: #379ee2;
+}
+
+.ant-tabs-ink-bar {
+    background: #379ee2;
+    width: 10px;
+}
+
+.ant-slider-track {
+    background-color: #379ee2;
+}
+
+.ant-slider:hover .ant-slider-track {
+    background-color: #379ee2;
+}
+
+.ant-slider-handle {
+    border: 0px
+}
+
+.ant-slider-rail {
+    background-color: rgb(83, 80, 80);
+}
+
+.logo {
+    width:150px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .searchBar {
+    display: flex;
+    float: left;
+    padding: 15px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .wallet{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .sideBar {
+    color: #f7f8f8;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .recentPlayed {
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 400px);
+  }
+  
+  .recentTitle {
+    color: rgb(8, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .install {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contentWindow {
+    padding: 50px 0px;
+  }
+
+  .footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: white;
+    color: rgb(205, 203, 203) !important; 
+  }
+
+  .header {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+    background-color: white;
+    color: rgb(205, 203, 203) !important; 
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    right: 0;
+    z-index: 1000;
+  }
+
+
+
+
+    

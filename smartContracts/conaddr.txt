@@ -1,0 +1,23 @@
+
+"Antonio Rossini - Overture to William Tell"
+"Frederic Chopin - Waltz in C sharp minor"
+"Antonio Vivaldi - Winter"
+
+λ node music.js
+[
+  {
+    path: 'https://gateway.moralisipfs.com/ipfs/QmVPP9fFjThJFuk1BuMAJti1V9tUWVYTe9bcLo3sRWHS4G/media/3' // image cover
+  },
+  {
+    path: 'https://gateway.moralisipfs.com/ipfs/QmVPP9fFjThJFuk1BuMAJti1V9tUWVYTe9bcLo3sRWHS4G/media/2' //vivaldi
+  },
+  {
+    path: 'https://gateway.moralisipfs.com/ipfs/QmVPP9fFjThJFuk1BuMAJti1V9tUWVYTe9bcLo3sRWHS4G/media/0' //rossini
+  },
+  {
+    path: 'https://gateway.moralisipfs.com/ipfs/QmVPP9fFjThJFuk1BuMAJti1V9tUWVYTe9bcLo3sRWHS4G/media/1' //chopin
+  }
+]
+
+contract addr:
+0x6b05330868a41dEE31663973616141b04E3C140e

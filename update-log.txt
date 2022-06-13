@@ -1,0 +1,16 @@
+1. set header to be risponsive
+
+2. tune gnaius logo should be in SVG format
+
+3. connect wallet - build connect module >> Hpo
+
+4. minting page- build minting page >> Hpo / @evo
+
+5. Explore (search functiunalty)  >> Hpo / @evo
+
+- @evo make sure to use css file per entity as exsist in to code (don't mix into one css file)
+
+- -gl.css file are gigalend backups - these will be deleted further on
+
+- for any help regarding antd go to thier website: https://ant.design/
+
